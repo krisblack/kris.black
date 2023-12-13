@@ -1,0 +1,109 @@
+.sqs-gallery-block-grid {
+  overflow: visible;
+}
+
+.js-gallery-lightbox-opener {
+  position: relative;
+  
+  & > span {
+    bottom: 0;
+    clip: auto;
+    cursor: pointer;
+    display: inline-block !important;
+    height: 20px !important;
+    overflow: visible;
+    padding: 9px !important;
+    right: 0;
+    text-align: center;
+    text-rendering: auto;
+    vertical-align: middle;
+    width: 20px !important;
+    z-index: 4;
+        
+    &:before {
+      content: "\f065";
+      font: var(--fa-font-solid);
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+  
+  &:hover {
+    & > span {
+      align-items: center;
+      background-color: fade(black, 80%);
+      color: white;
+      display: flex !important;
+      height: 100% !important;
+      justify-content: center;
+      padding: 0 !important;
+      transform-origin: bottom right;
+      transition: all cubic-bezier(0,1,0,1) 0.15s;
+      width: 100% !important;
+      
+      &:before {
+        color: white;
+        margin-right: 0.3rem;
+        text-shadow: none;
+      }
+    }
+  }
+}
+
+.page-section[data-section-theme="white"] {
+  .js-gallery-lightbox-opener {
+    & > span {
+      &:before {
+        color: black;
+      }
+      
+    }
+    &:hover {
+      & > span {
+        &:before {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.page-section[data-section-theme="white-bold"] {
+  .js-gallery-lightbox-opener {
+    & > span {
+      &:before {
+        color: white;
+      }
+    }
+  }
+}
+
+.gallery-reel {
+  .gallery-reel-list {
+    //overflow: visible;
+  }
+  .gallery-reel-item[data-active="true"] {
+    img {
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+      transform: scale(0.95);
+    }
+  }
+  .gallery-reel-item:not([data-active="true"]) {
+    img {
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+      opacity: 0.5;
+      transform: scale(0.9);
+    }
+  }
+}
+
+.sqs-gallery-block-grid .sqs-gallery-design-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  
+  .image-slide-anchor {
+    border-radius: @border-radius;
+    overflow: hidden;
+  }
+}

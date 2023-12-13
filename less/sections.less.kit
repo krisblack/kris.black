@@ -1,0 +1,17 @@
+// white fade over background image for the first section of a page
+#sections > .page-section{
+  .content-wrapper {
+    z-index: 2;
+  }
+  &:first-of-type:after {
+    background: rgba(255,255,255,0);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+    bottom: 0;
+    content: " ";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+}

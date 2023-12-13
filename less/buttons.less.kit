@@ -1,0 +1,28 @@
+.page-section {
+  
+  &.white {
+    .sqs-block-button-element {
+      //box-shadow: 0 8px 0 -5px fade(@black, 20%);
+      position: relative;
+      
+      &:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        background-color: fade(@black, 40%);
+        border-radius: 0 0 2px 2px;
+        bottom: -7px;
+        height: 2px;
+        width: 100%;
+        left: 0;
+      }
+      
+      &:hover {
+        background-color: @black;
+        box-shadow: none;
+        color: @light-yellow !important;
+        transition: all ease-in-out 0.1s;
+      }
+    }
+  }
+}

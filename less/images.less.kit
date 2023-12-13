@@ -1,0 +1,109 @@
+.fluid-image-animation-wrapper {
+  overflow: visible !important;
+}
+
+.html-block.sqs-background-enabled,
+.fluid-image-container,
+.grid-wrapper .grid-image,
+.sqs-block-image .image-inset {
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.024),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.038),
+    0 12.5px 10px rgba(0, 0, 0, 0.05),
+    0 -12.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 -21.8px 33.4px rgba(0, 0, 0, 0.056)
+  ;
+}
+// adding box shadows to images
+.design-layout-inline .sqs-block-image-figure,
+.image-slide-anchor,
+.list-image,
+.list-item-media {
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.024),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.038),
+    0 12.5px 10px rgba(0, 0, 0, 0.05),
+    0 -12.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 -21.8px 33.4px rgba(0, 0, 0, 0.056)
+  ;
+}
+
+// Adding Rounded Corners to Images
+.list-item-media {
+  .border-radius(); 
+}
+
+// images I don't want to have box shadows
+// Page: Squarespace For Dummies
+// Page: Squarespace 6 For Dummies
+// Site Footer
+#item-62cd6ddc3255c244efcfcbbe .sqs-image-content,
+#item-624742e06767116ebd730112 .sqs-image-content, #footer-sections .fluid-image-container {
+  box-shadow: none !important;
+}
+
+.fluid-image-container {
+  button.lightbox {
+    //position: relative;
+    
+    & > span {
+      bottom: 0;
+      clip: auto;
+      cursor: pointer;
+      display: inline-block !important;
+      height: 20px !important;
+      overflow: visible;
+      padding: 9px !important;
+      right: 0;
+      text-align: center;
+      text-rendering: auto;
+      vertical-align: middle;
+      width: 20px !important;
+      z-index: 4;
+          
+      &:before {
+        //color: black;
+        content: "\f065";
+        font: var(--fa-font-solid);
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+      }
+      
+      &:after {
+        color: transparent;
+        content: "View fullsize";
+        display: inline-block;
+        visibility: hidden;
+      }
+    }
+    
+    &:hover {
+      & > span {
+        align-items: center;
+        background-color: fade(black, 80%);
+        //border-radius: 0;
+        color: white;
+        display: flex !important;
+        height: 100% !important;
+        justify-content: center;
+        padding: 0 !important;
+        //transform: scale(1.5);
+        transform-origin: bottom right;
+        transition: all cubic-bezier(0,1,0,1) 0.15s;
+        width: 100% !important;
+        
+        &:before {
+          color: white;
+          margin-right: 0.3rem;
+          text-shadow: none;
+        }
+        
+        &:after {
+          color: @white;
+          visibility: visible;
+        }
+      }
+    }
+
+  }
+}
