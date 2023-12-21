@@ -1,0 +1,37 @@
+// Hello Page UL
+.areasOfExpertise {
+  list-style-type: none;
+  padding-left: 0;
+  
+  li {
+    font-size: 1.25rem;
+    padding-left: 1.65em;
+    text-indent: -1.65em;
+
+    &::after {
+      display: none;
+    }
+    
+    &:first-child {
+      & > :first-child {
+        margin-top: 0;
+      }
+    }
+    
+    &::before {
+      content: "\2714";
+      display: inline;
+      font-weight: 400;
+      margin-right: 0.4rem;
+      text-align: left;
+      visibility: visible;
+    }
+  }
+  
+  @media only screen and (min-width: 940px) {
+    column-gap: 3em;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto 1fr;
+  }
+}

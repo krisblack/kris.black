@@ -1,0 +1,81 @@
+// Trying to get the nav to touch the header bottom border
+.header-title-nav-wrapper {
+  align-items: self-end;
+}
+
+body:not(.header--menu-open) .header-nav-item--active > a {
+  background-image: linear-gradient(@black,@black);
+  background-size: 1px 100%;
+  color: @white !important;
+}
+
+.header-nav-wrapper {
+
+  .header-nav-item {
+  
+    a {
+      bottom: -0.46em;
+      display: inline !important;
+      padding: 0 0.2em;
+      position: relative;
+    }
+    
+    & > a:not(.header-nav-folder-title) {
+      &:before {
+        background-color: @black;
+        content: " ";
+        display: inline-block;
+        height: 2px;
+        left: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        width: 0;
+      }
+      
+      &:hover {
+        &:before {
+          left: 0;
+          transition: all ease-in-out 100ms;
+          width: 93%;
+        }
+      }
+    }
+  }
+}
+
+.header-nav-folder-content {
+  background-color: @black !important;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.024),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.038),
+    0 12.5px 10px rgba(0, 0, 0, 0.05),
+    0 -12.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 -21.8px 33.4px rgba(0, 0, 0, 0.056)
+  ;
+  padding-bottom: 1.15em !important;
+  //top: 1.2em !important;
+  
+  .header-nav-folder-item {
+    a {
+      border-top: none;
+      color: darken(@white, 40%) !important;
+      
+      &:hover {
+        color: @white !important;
+      }
+    }
+    
+    &.header-nav-folder-item--active {
+      a {        
+          color: @white !important;
+      }
+    }
+  }
+}
+
+// moving the active page/section indicator above the page/section link in the main nav
+.header .header-nav-wrapper a, .header .language-item a {
+  background-position: 0 calc(0% - 0.1em) !important;
+  padding-bottom: 0 !important;
+}

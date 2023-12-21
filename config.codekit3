@@ -9,30 +9,145 @@
   ],
   "creatorBuild" : "34564",
   "files" : {
+    "\/.nova\/Artwork" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.nova\/Artwork",
+      "oF" : 0
+    },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/build\/build",
       "oF" : 0
     },
-    "\/README.md" : {
+    "\/copy-to-site.kit" : {
       "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oAP" : "\/build\/copy-to-site.less",
+      "oF" : 0
+    },
+    "\/less\/blocks.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/blocks.less.less",
+      "oF" : 0
+    },
+    "\/less\/buttons.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/buttons.less.less",
+      "oF" : 0
+    },
+    "\/less\/content.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/content.less.less",
+      "oF" : 0
+    },
+    "\/less\/footer.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/footer.less.less",
+      "oF" : 0
+    },
+    "\/less\/gallery.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/gallery.less.less",
+      "oF" : 0
+    },
+    "\/less\/images.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/images.less.less",
+      "oF" : 0
+    },
+    "\/less\/links.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/links.less.less",
+      "oF" : 0
+    },
+    "\/less\/mixins.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/mixins.less.less",
+      "oF" : 0
+    },
+    "\/less\/notes.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/notes.less.less",
+      "oF" : 0
+    },
+    "\/less\/page-specific.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/page-specific.less.less",
+      "oF" : 0
+    },
+    "\/less\/sections.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/sections.less.less",
+      "oF" : 0
+    },
+    "\/less\/site-header.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/site-header.less.less",
+      "oF" : 0
+    },
+    "\/less\/variables.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/variables.less.less",
+      "oF" : 0
+    },
+    "\/Squarespace-Backup" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/Squarespace-Backup",
+      "oF" : 0
     }
   },
   "hooks" : [
