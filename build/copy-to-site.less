@@ -576,6 +576,45 @@ h2 + ul[data-rte-list] {
   line-height: 1.3;
 }
 
+.blog-meta-item--categories {
+  display: inline-block;
+  
+  &:before {
+    .fontawesome();
+    content: "\f03a";
+  }
+}
+
+.blog-item-author-date-wrapper {
+  align-items: baseline;
+  margin-top: 10px;
+  
+  &:before {
+    .fontawesome();
+    content: "\f133";
+    margin-right: 6px;
+  }
+}
+
+.blog-item-author-profile-wrapper {
+  & > a {
+    display: flex;
+    align-items: center;
+    
+    .author-avatar {
+      border: 5px solid var(--paragraphMediumColor);
+    }
+    
+    .author-name {
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      padding-left: 10px;
+      text-transform: uppercase;
+    }
+  }
+}
+
 // Hello Page UL
 .areasOfExpertise {
   list-style-type: none;
