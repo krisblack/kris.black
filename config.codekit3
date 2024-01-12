@@ -47,6 +47,14 @@
       "oAP" : "\/build\/less\/blocks.less.less",
       "oF" : 0
     },
+    "\/less\/blog.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/blog.less.less",
+      "oF" : 0
+    },
     "\/less\/buttons.less.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -188,7 +196,7 @@
     "allowInjectionReloads" : 1,
     "alwaysUseExternalServer" : 0,
     "animateCSSInjections" : 1,
-    "autoBuildNewItems" : 1,
+    "autoBuildNewItems" : 0,
     "autoprefixerEnableIEGrid" : 0,
     "babel7PresetType" : 1,
     "babelAllowRCFiles" : 0,
