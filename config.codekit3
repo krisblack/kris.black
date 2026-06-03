@@ -39,6 +39,22 @@
       "oAP" : "\/build\/copy-to-site.less",
       "oF" : 0
     },
+    "\/feed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/feed-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/index.html",
+      "oF" : 0
+    },
     "\/less\/blocks.less.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -175,6 +191,84 @@
       "oA" : 1,
       "oAP" : "\/build\/Squarespace-Backup",
       "oF" : 0
+    },
+    "\/uploads\/2023\/apple-colors-spray-paint.png" : {
+      "ft" : 32768,
+      "iS" : 5060457,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/apple-colors-spray-paint.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/2023\/image-8-5-23-4-25-pm.jpeg" : {
+      "ft" : 16384,
+      "iS" : 1742830,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/image-8-5-23-4-25-pm.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/2023\/kris-dot-black-logo.png" : {
+      "ft" : 32768,
+      "iS" : 5753,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/kris-dot-black-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/2023\/kris-homescreen-20230812.png" : {
+      "ft" : 32768,
+      "iS" : 2335323,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/kris-homescreen-20230812.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/2023\/moebius34.jpg" : {
+      "ft" : 16384,
+      "iS" : 67101,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/moebius34.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/2023\/studio-patreon-tier-artwork.jpg" : {
+      "ft" : 16384,
+      "iS" : 55785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/uploads\/2023\/studio-patreon-tier-artwork.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     }
   },
   "hooks" : [
