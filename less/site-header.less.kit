@@ -1,20 +1,51 @@
 // Trying to get the nav to touch the header bottom border
 .header-title-nav-wrapper {
   align-items: self-end;
+  width: 100%;
+}
+
+.header-actions.header-actions--right {
+  width: 100%;
+  
+  .sqs-button-element--primary {
+    border: none !important;
+    padding: 0.25em 0.5em !important;
+    
+    &:after {
+      content: "\2192";
+      display: inline-block;
+      font-weight: 700;
+      position: relative;
+      top: -0.1em;
+      vertical-align: center;
+    }
+  }
+}
+
+.header-display-desktop {
+  flex-direction: column-reverse;
 }
 
 body:not(.header--menu-open) .header-nav-item--active > a {
   background-image: linear-gradient(@black,@black);
   background-size: 1px 100%;
-  color: @white !important;
+  //color: @white !important;
+}
+
+body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text {
+  background-image: linear-gradient(@black,@black);
+  //color: @white !important;
 }
 
 .header-nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 
   .header-nav-item {
   
-    a {
-      bottom: -0.46em;
+    a, button {
+      bottom: -0.47em;
       display: inline !important;
       padding: 0 0.2em;
       position: relative;
@@ -37,7 +68,7 @@ body:not(.header--menu-open) .header-nav-item--active > a {
         &:before {
           left: 0;
           transition: all ease-in-out 100ms;
-          width: 93%;
+          width: 100%;
         }
       }
     }
@@ -46,6 +77,10 @@ body:not(.header--menu-open) .header-nav-item--active > a {
 
 .header-nav-folder-content {
   background-color: @black !important;
+  border-color: @white;
+  border-radius: 0 0 6px 6px;
+  border-style: solid;
+  border-width: 0 1px 1px;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.024),
     0 6.7px 5.3px rgba(0, 0, 0, 0.038),

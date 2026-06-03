@@ -1,11 +1,15 @@
 // white fade over background image for the first section of a page
-#sections > .page-section{
+/*
+#sections > .page-section:not([data-section-id="65ce78c69aeaee037427f432"]){
   .content-wrapper {
     z-index: 2;
   }
+  
   &:first-of-type:after {
-    background: rgba(255,255,255,0);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+    //background: rgba(255,255,255,0);
+    //background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+    background: #2E2E2E;
+    background: linear-gradient(225deg, rgba(101, 101, 101, 1) 0%, rgba(46, 46, 46, 1) 100%); 
     bottom: 0;
     content: " ";
     display: block;
@@ -16,7 +20,11 @@
   }
 }
 
-#itemPagination {
-  max-width: var(--sqs-site-max-width);
-  margin: 0 auto;
+.page-section[data-section-id="653886170c63b61376163133"] {
+  .section-background {
+    background-image: url(https://images.squarespace-cdn.com/content/50ed5fcce4b0829d0c4f1af6/954459b0-d293-4439-9350-d87493a97d15/worn_dots.png);
+    background-position: top center;
+    background-repeat: repeat;
+  }  
 }
+*/

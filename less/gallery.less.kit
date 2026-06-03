@@ -6,21 +6,28 @@
   position: relative;
   
   & > span {
-    bottom: 0;
+    background-color: @white;
+    border-radius: 50%;
+    bottom: 4px;
     clip: auto;
     cursor: pointer;
-    display: inline-block !important;
+    display: inline-flex !important;
     height: 20px !important;
     overflow: visible;
-    padding: 9px !important;
-    right: 0;
+    padding: 4px !important;
+    right: 4px;
     text-align: center;
     text-rendering: auto;
     vertical-align: middle;
     width: 20px !important;
     z-index: 4;
+    justify-content: flex-start;
+    align-items: center;
+    color: transparent;
+    text-indent: 3px;
         
     &:before {
+      color: @black;
       content: "\f065";
       font: var(--fa-font-solid);
       font-size: 16px;
@@ -32,11 +39,14 @@
     & > span {
       align-items: center;
       background-color: fade(black, 80%);
+      border-radius: 0;
+      bottom: 0;
       color: white;
       display: flex !important;
       height: 100% !important;
       justify-content: center;
       padding: 0 !important;
+      right: 0;
       transform-origin: bottom right;
       transition: all cubic-bezier(0,1,0,1) 0.15s;
       width: 100% !important;

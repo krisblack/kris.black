@@ -1,5 +1,5 @@
 .header-announcement-bar-wrapper {
-  padding-bottom: 0 !important;
+  padding-bottom: 10px !important;
 }
 
 article > .page-section:first-of-type {
@@ -17,9 +17,23 @@ article > .page-section:first-of-type {
       background-color: #000;
       content: " ";
       height: calc(1em - 0.341em);
-      margin-left: -100.2vw;
+      margin-left: -99.9vw;
       width: 100vw;
     }
+    
+  }
+  &.black {
+    h1:not(.blog-title) {
+      &:before {
+        background-color: #fff;
+        content: " ";
+        height: calc(1em - 0.341em);
+        margin-left: -99.9vw;
+        width: 100vw;
+      }
+      
+    }
+
   }
 }
 
@@ -37,7 +51,7 @@ h2:not(.list-item-content__title):not(.item-pagination-title) {
   letter-spacing: -0.09em;
   line-height: 0.73;
   //justify-content: center;
-  margin-left: 25%;
+  //margin-left: 25%;
   //padding-left: 25%;
   position: relative;
   text-transform: uppercase;
@@ -52,7 +66,6 @@ h2:not(.list-item-content__title):not(.item-pagination-title) {
       position: absolute;
       width: 100vw;
     }
-
 }
 
 h2 + p,
